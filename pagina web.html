@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            body {
+                margin: auto;
+            }
+            header {
+                text-align: center;
+
+                justify-content: center;
+
+                font-weight: 1000;
+                font-family: Calibri;
+                color: white;
+                background-color: #34C89A;
+                height: 150px;
+            }
+            nav {
+                text-align: left;
+                justify-content: center;
+                font-size: 15px;
+                font-weight: 500;
+                font-family: Calibri;
+                color: white;
+                background-color: black;
+                height: 55px;
+
+            }
+
+            main{
+                display: inline-block;
+                width: 30%;
+            }
+
+            section {
+
+                color: black;
+                width: 100%;
+                background-color: whitesmoke;
+                height: 400px;
+                width: 100%;
+                font-size: 12px;
+                font-family: Calibri;
+                vertical-align: top;
+                font-weight: 1000;
+            }
+            aside {
+
+                font-size: 12px;
+                font-weight: 1000;
+                font-family: Calibri;
+                color: black;
+                background-color: white;
+                vertical-align: top;
+
+                height: 400px;
+                width: 70%;
+                float: right;
+            }
+            footer {
+                text-align: center;
+                font-weight: 1000;
+                font-family: Calibri;
+                font-size: 20px;
+                color: black;
+                background-color: lightgray;
+                height: 80px;
+            }
+            article{
+                margin-right: 10px;
+                margin-left: 10px;
+                margin-top: 10px;
+                color: black;
+                background-color: darkgrey;
+                height: 150px;
+            }
+            @media screen and (max-width: 700px){
+                header{
+                    display:none;
+                }
+                footer{
+                    display:none;
+                }
+                section{
+                    width:100%;
+                }
+                aside{
+                    width:100%;
+                }
+                .content{
+                    display:flex;
+                    flex-direction:column;
+            }
+        </style>
+        <title>Mi Pagina Web</title>
+    </head>
+<body>
+<header>
+    <br/>
+    <h1>FlexWeb</h1>
+</header>
+<nav>
+    <br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;Link&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Link&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Link  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Link
+</nav>
+<main>
+
+        <section>
+            <br/>
+            <p style="font-size: 20px"><b>&nbsp;&nbsp;About Me</b></p>
+            <br>&nbsp;&nbsp;&nbsp;&nbsp;Photo of me:</br>
+            <article>
+                <br>&nbsp;&nbsp;&nbsp;&nbsp;Image</br>
+            </article>
+            <br>&nbsp;&nbsp;&nbsp;&nbsp;Some text about...</br>
+        </section>
+
+</main>
+<aside>
+    <br/>
+    <p style="font-size: 20px"><b>&nbsp;&nbsp;TITLE HEADING</b></p>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;Title description, Dec 7, 2017</br>
+<article>
+    <br>&nbsp;&nbsp;&nbsp;&nbsp;Image</br>
+</article>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;Some Text...</br>
+    <br>&nbsp;&nbsp;&nbsp;&nbsp;Sunt in culpa...</br>
+</aside>
+<footer>
+    <br/>
+    Footer
+</footer>
+</body>
